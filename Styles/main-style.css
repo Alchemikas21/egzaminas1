@@ -1,0 +1,75 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin-bottom: 3000px;
+}
+
+body > main > .first-section-container {
+  display: flex;
+  width: 78%;
+  height: 519px;
+  background-color: lightblue;
+  margin-left: 80px;
+}
+body > main > .first-section-container .first-section-left > p:first-child {
+  color: #FF3998;
+}
+body > main > .first-section-container .first-section-left > p:nth-child(2) {
+  font-weight: bold;
+}
+body > main > .first-section-container .first-section-left > p:nth-child(3) {
+  color: #555555;
+}
+body > main > .first-section-container .first-section-button {
+  width: 188px;
+  height: 75px;
+}
+
+body > main > .second-section-container {
+  position: relative;
+}
+body > main > .second-section-container .second-section-background {
+  height: 320px;
+  width: 80%;
+  margin-left: 72px;
+}
+body > main > .second-section-container .second-section-paragraph-1 {
+  position: absolute;
+  top: 0;
+  left: 200px;
+}
+body > main > .second-section-container .second-section-paragraph-2 {
+  position: absolute;
+  top: 20px;
+  left: 200px;
+}
+
+body > main > .third-section-container {
+  display: flex;
+  width: 80%;
+  margin-left: 72px;
+  justify-content: space-between;
+}
+
+body > main > .fourth-section-container {
+  width: 80%;
+  margin-left: 72px;
+}
+
+body > main > .fifth-section-container {
+  width: 80%;
+  margin-left: 72px;
+}
+
+body > main > .sixth-section-container {
+  width: 80%;
+  margin-left: 72px;
+  display: flex;
+  height: 250px;
+  background-color: lightblue;
+}
+body > main > .sixth-section-container .sixth-section-image {
+  height: 250px;
+}/*# sourceMappingURL=main-style.css.map */

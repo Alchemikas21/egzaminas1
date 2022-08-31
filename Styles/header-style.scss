@@ -1,0 +1,32 @@
+$preset: 10px;
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    height: 38px;
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+
+    .header-container-left {
+        display: flex;
+        align-items: center;
+
+        .nft-logo {
+            height: 80%;
+        }
+    }
+
+    .header-container-right {
+        display: flex;
+
+        .navigation-bar-text {
+            margin: $preset;
+        }
+        
+        .navigation-bar-text:last-child{
+            color: #FF3998
+        }
+    }
+}

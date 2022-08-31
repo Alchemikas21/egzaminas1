@@ -1,0 +1,16 @@
+body > .footer-container {
+  display: flex;
+  width: 80%;
+  margin-left: 72px;
+}
+body > .footer-container .first-footer-section {
+  display: flex;
+}
+body > .footer-container .second-footer-section {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}/*# sourceMappingURL=footer-style.css.map */
