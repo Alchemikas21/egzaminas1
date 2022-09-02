@@ -1,26 +1,55 @@
-.header-container {
-  display: flex;
-  justify-content: space-between;
-  height: 38px;
-  width: 1280px;
-  margin-left: 72px;
-  margin-right: 72px;
-  margin-top: 70px;
-  font-size: 20px;
+@media only screen and (min-width: 1440px) {
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    height: 38px;
+    width: 1280px;
+    margin-left: 72px;
+    margin-right: 72px;
+    margin-top: 70px;
+    font-size: 20px;
+  }
+  .header-container .header-container-left {
+    display: flex;
+    align-items: center;
+  }
+  .header-container .header-container-left .nft-logo {
+    height: 80%;
+  }
+  .header-container .header-container-right {
+    display: flex;
+  }
+  .header-container .header-container-right .navigation-bar-text {
+    margin: 10px;
+  }
+  .header-container .header-container-right .navigation-bar-text:nth-child(4) {
+    color: #FF3998;
+  }
+  .header-container .header-container-right .hamburger-menu {
+    display: none;
+  }
 }
-.header-container .header-container-left {
-  display: flex;
-  align-items: center;
-}
-.header-container .header-container-left .nft-logo {
-  height: 80%;
-}
-.header-container .header-container-right {
-  display: flex;
-}
-.header-container .header-container-right .navigation-bar-text {
-  margin: 10px;
-}
-.header-container .header-container-right .navigation-bar-text:last-child {
-  color: #FF3998;
+@media only screen and (min-width: 320px) and (max-width: 426px) {
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .header-container .header-container-left {
+    display: flex;
+    align-items: center;
+  }
+  .header-container .header-container-left .nft-logo {
+    height: 80%;
+  }
+  .header-container .header-container-right {
+    display: flex;
+  }
+  .header-container .header-container-right .navigation-bar-text {
+    display: none;
+  }
+  .header-container .header-container-right .hamburger-menu {
+    height: 36px;
+  }
 }/*# sourceMappingURL=header-style.css.map */

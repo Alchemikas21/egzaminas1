@@ -1,37 +1,68 @@
-body > .footer-container {
-  width: 95%;
-  margin-left: 72px;
-  margin-top: 100px;
+@media only screen and (min-width: 1440px) {
+  body > .footer-container {
+    width: 95%;
+    margin-left: 72px;
+    margin-top: 100px;
+  }
+  body > .footer-container .first-footer-section {
+    display: flex;
+  }
+  body > .footer-container .second-footer-section {
+    display: flex;
+  }
+  .footer-grid-container {
+    margin-right: 72px;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    -moz-column-gap: 70px;
+         column-gap: 70px;
+  }
+  .grid-text-bolder {
+    font-weight: bolder;
+  }
+  .second-footer-section {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    margin-right: 72px;
+    margin-top: 50px;
+    color: #999999;
+  }
+  .footer-social-media-logos {
+    width: 100px;
+  }
 }
-body > .footer-container .first-footer-section {
-  display: flex;
-}
-body > .footer-container .second-footer-section {
-  display: flex;
-}
-
-.footer-grid-container {
-  margin-right: 72px;
-  margin-left: auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  -moz-column-gap: 70px;
-       column-gap: 70px;
-}
-
-.grid-text-bolder {
-  font-weight: bolder;
-}
-
-.footer-social-media-logos {
-  width: 100px;
-}
-
-.second-footer-section {
-  display: flex;
-  justify-content: space-between;
-  width: auto;
-  margin-right: 72px;
-  margin-top: 50px;
-  color: #999999;
+@media only screen and (min-width: 320px) and (max-width: 426px) {
+  body > .footer-container {
+    margin-left: 10px;
+    margin-top: 100px;
+  }
+  .footer-grid-container {
+    margin-right: 72px;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    -moz-column-gap: 70px;
+         column-gap: 70px;
+    row-gap: 5px;
+  }
+  .footer-social-media-logos {
+    width: 70px;
+  }
+  .grid-text-bolder {
+    font-weight: bolder;
+  }
+  .second-footer-section {
+    margin-right: 10px;
+    margin-top: 50px;
+    color: #999999;
+  }
+  .mobile-footer-hidden-text {
+    display: none;
+  }
+  .footer-grid-text {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
 }/*# sourceMappingURL=footer-style.css.map */
