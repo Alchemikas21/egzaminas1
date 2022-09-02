@@ -1,7 +1,7 @@
 body > .footer-container {
-  display: flex;
-  width: 80%;
+  width: 95%;
   margin-left: 72px;
+  margin-top: 100px;
 }
 body > .footer-container .first-footer-section {
   display: flex;
@@ -10,7 +10,28 @@ body > .footer-container .second-footer-section {
   display: flex;
 }
 
-.grid {
+.footer-grid-container {
+  margin-right: 72px;
+  margin-left: auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  -moz-column-gap: 70px;
+       column-gap: 70px;
+}
+
+.grid-text-bolder {
+  font-weight: bolder;
+}
+
+.footer-social-media-logos {
+  width: 100px;
+}
+
+.second-footer-section {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  margin-right: 72px;
+  margin-top: 50px;
+  color: #999999;
 }/*# sourceMappingURL=footer-style.css.map */
